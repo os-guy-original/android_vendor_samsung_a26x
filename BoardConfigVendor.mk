@@ -1,0 +1,20 @@
+# Copyright (C) 2026 The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+
+BOARD_VENDOR := samsung
+
+# Platform
+TARGET_BOARD_PLATFORM := erd8835
+
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := s5e8835
+TARGET_NO_BOOTLOADER := true
+TARGET_NO_RADIOIMAGE := true
+
+# Graphics
+BOARD_USES_EXYNOS_GRALLOC := true
+BOARD_USES_EXYNOS_HWC := true
+
+# Build flags
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true

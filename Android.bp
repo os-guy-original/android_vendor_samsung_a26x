@@ -1,0 +1,6 @@
+soong_namespace {
+    imports: [
+        "hardware/samsung",
+        "hardware/samsung_slsi-linaro/config",
+    ],
+}

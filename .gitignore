@@ -1,0 +1,7 @@
+# Generated files
+*.tar.gz
+*.zip
+missing_files.txt
+failed_files.txt
+tmp/
+proprietary/
