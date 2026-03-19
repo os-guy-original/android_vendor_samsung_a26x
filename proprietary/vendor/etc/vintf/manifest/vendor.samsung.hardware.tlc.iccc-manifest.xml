@@ -1,0 +1,22 @@
+<manifest version="1.0" type="device">
+    <hal format="aidl">
+        <name>vendor.samsung.hardware.tlc.iccc</name>
+        <version>3</version>
+        <interface>
+            <name>ISehIccc</name>
+            <instance>default</instance>
+        </interface>
+        <!--interface>
+            <name>ISehIcccTestTeegris</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>ISehIcccTestQtee</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>ISehIcccTestGrdm</name>
+            <instance>default</instance>
+        </interface-->
+    </hal>
+</manifest>

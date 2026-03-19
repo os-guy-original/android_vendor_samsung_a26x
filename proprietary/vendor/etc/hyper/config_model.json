@@ -1,0 +1,15 @@
+{
+  "Hints": [
+    {
+      "Hint": "KBD_APP_FIRST_START_VIEW",
+      "ID" : "2340",
+      "Duration": "800",
+      "ResoureList": [
+        {
+          "Resource" : "CPUMinFreq",
+          "Value" : "100#"
+        }
+      ]
+    }
+  ]
+}
