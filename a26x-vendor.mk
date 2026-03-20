@@ -18,19 +18,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a26x/proprietary/vendor/app/mcRegistry/FFFF0000000000000000000000000014.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/FFFF0000000000000000000000000014.tlbin \
     vendor/samsung/a26x/proprietary/vendor/bin/abox_log:$(TARGET_COPY_OUT_VENDOR)/bin/abox_log \
     vendor/samsung/a26x/proprietary/vendor/bin/add.tflite:$(TARGET_COPY_OUT_VENDOR)/bin/add.tflite \
-    vendor/samsung/a26x/proprietary/vendor/bin/applypatch:$(TARGET_COPY_OUT_VENDOR)/bin/applypatch \
-    vendor/samsung/a26x/proprietary/vendor/bin/boringssl_self_test32:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test32 \
-    vendor/samsung/a26x/proprietary/vendor/bin/boringssl_self_test64:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test64 \
     vendor/samsung/a26x/proprietary/vendor/bin/cass:$(TARGET_COPY_OUT_VENDOR)/bin/cass \
     vendor/samsung/a26x/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
     vendor/samsung/a26x/proprietary/vendor/bin/cld:$(TARGET_COPY_OUT_VENDOR)/bin/cld \
     vendor/samsung/a26x/proprietary/vendor/bin/dmd:$(TARGET_COPY_OUT_VENDOR)/bin/dmd \
-    vendor/samsung/a26x/proprietary/vendor/bin/dumpsys:$(TARGET_COPY_OUT_VENDOR)/bin/dumpsys \
     vendor/samsung/a26x/proprietary/vendor/bin/emservice:$(TARGET_COPY_OUT_VENDOR)/bin/emservice \
     vendor/samsung/a26x/proprietary/vendor/bin/epic:$(TARGET_COPY_OUT_VENDOR)/bin/epic \
     vendor/samsung/a26x/proprietary/vendor/bin/fsdbg_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/fsdbg_vendor \
     vendor/samsung/a26x/proprietary/vendor/bin/hermesd:$(TARGET_COPY_OUT_VENDOR)/bin/hermesd \
-    vendor/samsung/a26x/proprietary/vendor/bin/hostapd_cli:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd_cli \
     vendor/samsung/a26x/proprietary/vendor/bin/hw/android.hardware.audio.service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service \
     vendor/samsung/a26x/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service \
     vendor/samsung/a26x/proprietary/vendor/bin/hw/android.hardware.cas@1.2-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.2-service-lazy \
@@ -50,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a26x/proprietary/vendor/bin/hw/android.hardware.usb@1.3-service.coral:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.3-service.coral \
     vendor/samsung/a26x/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service \
     vendor/samsung/a26x/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
-    vendor/samsung/a26x/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
     vendor/samsung/a26x/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
     vendor/samsung/a26x/proprietary/vendor/bin/hw/mfgloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfgloader \
     vendor/samsung/a26x/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
@@ -85,7 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a26x/proprietary/vendor/bin/hw/vendor.samsung_slsi.hardware.epic@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung_slsi.hardware.epic@1.0-service \
     vendor/samsung/a26x/proprietary/vendor/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service \
     vendor/samsung/a26x/proprietary/vendor/bin/hw/vendor.samsung_slsi.hardware.SbwcDecompService@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung_slsi.hardware.SbwcDecompService@1.0-service \
-    vendor/samsung/a26x/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
     vendor/samsung/a26x/proprietary/vendor/bin/iod:$(TARGET_COPY_OUT_VENDOR)/bin/iod \
     vendor/samsung/a26x/proprietary/vendor/bin/memlogd:$(TARGET_COPY_OUT_VENDOR)/bin/memlogd \
     vendor/samsung/a26x/proprietary/vendor/bin/mlgcat:$(TARGET_COPY_OUT_VENDOR)/bin/mlgcat \
@@ -108,7 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a26x/proprietary/vendor/bin/vendor.samsung.hardware.security.rtts-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.rtts-service \
     vendor/samsung/a26x/proprietary/vendor/bin/vendor.samsung.hardware.security.vaultkeeper-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.vaultkeeper-service \
     vendor/samsung/a26x/proprietary/vendor/bin/wlbtd:$(TARGET_COPY_OUT_VENDOR)/bin/wlbtd \
-    vendor/samsung/a26x/proprietary/vendor/bin/wpa_cli:$(TARGET_COPY_OUT_VENDOR)/bin/wpa_cli \
     vendor/samsung/a26x/proprietary/vendor/bin/wpal:$(TARGET_COPY_OUT_VENDOR)/bin/wpal \
     vendor/samsung/a26x/proprietary/vendor/bin/wtasd:$(TARGET_COPY_OUT_VENDOR)/bin/wtasd \
     vendor/samsung/a26x/proprietary/vendor/bin/wvkprov:$(TARGET_COPY_OUT_VENDOR)/bin/wvkprov \
@@ -198,7 +190,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a26x/proprietary/vendor/etc/init/android.hardware.usb@1.3-service.coral.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.3-service.coral.rc \
     vendor/samsung/a26x/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service.rc \
     vendor/samsung/a26x/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
-    vendor/samsung/a26x/proprietary/vendor/etc/init/boringssl_self_test.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/boringssl_self_test.rc \
     vendor/samsung/a26x/proprietary/vendor/etc/init/camera.unihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camera.unihal.rc \
     vendor/samsung/a26x/proprietary/vendor/etc/init/cass.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cass.rc \
     vendor/samsung/a26x/proprietary/vendor/etc/init/dmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmd.rc \
@@ -939,7 +930,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a26x/proprietary/vendor/lib64/libvkservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvkservice.so \
     vendor/samsung/a26x/proprietary/vendor/lib64/libvpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpl.so \
     vendor/samsung/a26x/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
-    vendor/samsung/a26x/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
     vendor/samsung/a26x/proprietary/vendor/lib64/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwrappergps.so \
     vendor/samsung/a26x/proprietary/vendor/lib64/libwsmd_functions.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwsmd_functions.so \
     vendor/samsung/a26x/proprietary/vendor/lib64/libwvaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvaidl.so \
@@ -1221,7 +1211,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a26x/proprietary/vendor/lib/libvideobeauty_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobeauty_interface.so \
     vendor/samsung/a26x/proprietary/vendor/lib/libvpx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpx.so \
     vendor/samsung/a26x/proprietary/vendor/lib/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal.so \
-    vendor/samsung/a26x/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
     vendor/samsung/a26x/proprietary/vendor/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
     vendor/samsung/a26x/proprietary/vendor/lib/libwsmd_functions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwsmd_functions.so \
     vendor/samsung/a26x/proprietary/vendor/lib/libzoomroi.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzoomroi.samsung.so \
