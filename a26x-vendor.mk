@@ -8,9 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Proprietary blobs
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a26x/proprietary/system/etc/audio_effects.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.xml \
-    vendor/samsung/a26x/proprietary/system/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/libnfc-nci.conf \
-    vendor/samsung/a26x/proprietary/system/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_SYSTEM)/etc/seccomp_policy/mediacodec.policy \
     vendor/samsung/a26x/proprietary/system/lib64/graphicbuffersource-aidl-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/graphicbuffersource-aidl-ndk.so \
     vendor/samsung/a26x/proprietary/system/lib64/libdatasource.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdatasource.so \
     vendor/samsung/a26x/proprietary/system/lib64/libmedia_codeclist.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmedia_codeclist.so \
@@ -136,7 +133,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a26x/proprietary/vendor/etc/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml \
     vendor/samsung/a26x/proprietary/vendor/etc/audio_effects_sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects_sec.xml \
     vendor/samsung/a26x/proprietary/vendor/etc/audio_effects_spatializer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects_spatializer.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
     vendor/samsung/a26x/proprietary/vendor/etc/audio_policy_configuration_base.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_base.xml \
     vendor/samsung/a26x/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     vendor/samsung/a26x/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
