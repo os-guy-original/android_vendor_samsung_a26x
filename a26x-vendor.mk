@@ -8,24 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Proprietary blobs
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a26x/proprietary/system/lib64/graphicbuffersource-aidl-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/graphicbuffersource-aidl-ndk.so \
-    vendor/samsung/a26x/proprietary/system/lib64/libdatasource.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdatasource.so \
-    vendor/samsung/a26x/proprietary/system/lib64/libmedia_codeclist.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmedia_codeclist.so \
-    vendor/samsung/a26x/proprietary/system/lib64/libstagefright_aidl_bufferpool2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_aidl_bufferpool2.so \
-    vendor/samsung/a26x/proprietary/system/lib64/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_bufferpool@2.0.1.so \
-    vendor/samsung/a26x/proprietary/system/lib64/libstagefright_codecbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_codecbase.so \
-    vendor/samsung/a26x/proprietary/system/lib64/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_framecapture_utils.so \
-    vendor/samsung/a26x/proprietary/system/lib64/libstagefright_graphicbuffersource_aidl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_graphicbuffersource_aidl.so \
-    vendor/samsung/a26x/proprietary/system/lib64/libstagefright_surface_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_surface_utils.so \
-    vendor/samsung/a26x/proprietary/system/lib/graphicbuffersource-aidl-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/graphicbuffersource-aidl-ndk.so \
-    vendor/samsung/a26x/proprietary/system/lib/libdatasource.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdatasource.so \
-    vendor/samsung/a26x/proprietary/system/lib/libmedia_codeclist.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmedia_codeclist.so \
-    vendor/samsung/a26x/proprietary/system/lib/libstagefright_aidl_bufferpool2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_aidl_bufferpool2.so \
-    vendor/samsung/a26x/proprietary/system/lib/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_bufferpool@2.0.1.so \
-    vendor/samsung/a26x/proprietary/system/lib/libstagefright_codecbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_codecbase.so \
-    vendor/samsung/a26x/proprietary/system/lib/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_framecapture_utils.so \
-    vendor/samsung/a26x/proprietary/system/lib/libstagefright_graphicbuffersource_aidl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_graphicbuffersource_aidl.so \
-    vendor/samsung/a26x/proprietary/system/lib/libstagefright_surface_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_surface_utils.so \
     vendor/samsung/a26x/proprietary/vendor/apex/com.samsung.android.authfw.ta.preload.apex:$(TARGET_COPY_OUT_VENDOR)/apex/com.samsung.android.authfw.ta.preload.apex \
     vendor/samsung/a26x/proprietary/vendor/apex/com.samsung.android.biometrics.face.signed.apex:$(TARGET_COPY_OUT_VENDOR)/apex/com.samsung.android.biometrics.face.signed.apex \
     vendor/samsung/a26x/proprietary/vendor/apex/com.samsung.android.biometrics.fingerprint.signed.apex:$(TARGET_COPY_OUT_VENDOR)/apex/com.samsung.android.biometrics.fingerprint.signed.apex \
