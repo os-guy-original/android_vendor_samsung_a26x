@@ -3,3 +3,341 @@ soong_namespace {
         "hardware/samsung",
     ],
 }
+
+// VINTF manifest fragments
+
+vintf_fragment {
+    name: "vintf_android_hardware_cas_1_2-service-lazy",
+    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_android_hardware_drm-service_clearkey",
+    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_manifest_android_hardware_drm-service_widevine",
+    src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_android_hardware_neuralnetworks-service-enn",
+    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks-service-enn.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_st_android_hardware_nfc_1_2-service",
+    src: "proprietary/vendor/etc/vintf/manifest/st.android.hardware.nfc@1.2-service.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_android_hardware_sensors_2_0-multihal",
+    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.sensors@2.0-multihal.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_android_hardware_usb_1_3-service_coral",
+    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.usb@1.3-service.coral.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_android_hardware_wifi_hostapd",
+    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_android_hardware_wifi_supplicant",
+    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_android_hardware_wifi_1_0-service",
+    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_bluetooth_audio",
+    src: "proprietary/vendor/etc/vintf/manifest/bluetooth_audio.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_dmd",
+    src: "proprietary/vendor/etc/vintf/manifest/dmd.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_dumpstate-default",
+    src: "proprietary/vendor/etc/vintf/manifest/dumpstate-default.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_face-default-sec",
+    src: "proprietary/vendor/etc/vintf/manifest/face-default-sec.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_hyper-default-sec",
+    src: "proprietary/vendor/etc/vintf/manifest/hyper-default-sec.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_iweaver_v1_manifest",
+    src: "proprietary/vendor/etc/vintf/manifest/iweaver_v1_manifest.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_lights-default-sec",
+    src: "proprietary/vendor/etc/vintf/manifest/lights-default-sec.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_memtrack",
+    src: "proprietary/vendor/etc/vintf/manifest/memtrack.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_power-samsung",
+    src: "proprietary/vendor/etc/vintf/manifest/power-samsung.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_sec_c2_manifest_default0_1_2",
+    src: "proprietary/vendor/etc/vintf/manifest/sec_c2_manifest_default0_1_2.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_secaudiohalaidl_manifest",
+    src: "proprietary/vendor/etc/vintf/manifest/secaudiohalaidl_manifest.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_authfw_1_0-manifest",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.authfw@1.0-manifest.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_biometrics_fingerprint-service",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.biometrics.fingerprint-service.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_camera_provider-service",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.camera.provider-service.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_health-service",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.health-service.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_radio_exclude_slsi",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.radio.exclude.slsi.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_radio_manifest_2_33",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.radio_manifest_2_33.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_security_engmode-manifest",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.engmode-manifest.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_security_fkeymaster-service",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.fkeymaster-service.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_security_hdcp_wifidisplay-default",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.hdcp.wifidisplay-default.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_security_hermes",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.hermes.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_security_rtts-manifest",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.rtts-manifest.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_security_skpm-manifest",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.skpm-manifest.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_security_vaultkeeper-manifest",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.vaultkeeper-manifest.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_security_widevine_keyprov-service",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.widevine.keyprov-service.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_security_wsm_service-manifest",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.wsm.service-manifest.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_sehradio_manifest_2_33",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.sehradio_manifest_2_33.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_snap-default",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.snap-default.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_thermal_1_0-manifest",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_tlc_hdm_1_1-manifest",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.hdm@1.1-manifest.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_tlc_iccc-manifest",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.iccc-manifest.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_tlc_kg-manifest",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.kg-manifest.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_tlc_mpos_tui_1_0-manifest",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.mpos_tui@1.0-manifest.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_tlc_payment-manifest",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.payment-manifest.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_tlc_ucm-manifest",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.ucm-manifest.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_vibrator-default",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.vibrator-default.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_hardware_wifi_2_0-service",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.wifi@2.0-service.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}
+
+vintf_fragment {
+    name: "vintf_vendor_samsung_slsi_hardware_enn_1_0-service",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung_slsi.hardware.enn@1.0-service.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+}

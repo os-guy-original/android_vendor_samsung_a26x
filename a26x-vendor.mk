@@ -392,54 +392,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a26x/proprietary/vendor/etc/traceconfig.txt:$(TARGET_COPY_OUT_VENDOR)/etc/traceconfig.txt \
     vendor/samsung/a26x/proprietary/vendor/etc/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc \
     vendor/samsung/a26x/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks-service-enn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.neuralnetworks-service-enn.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/android.hardware.sensors@2.0-multihal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.sensors@2.0-multihal.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/android.hardware.usb@1.3-service.coral.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.usb@1.3-service.coral.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.supplicant.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/bluetooth_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/bluetooth_audio.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/dmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/dmd.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/dumpstate-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/dumpstate-default.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/face-default-sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/face-default-sec.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/hyper-default-sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/hyper-default-sec.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/iweaver_v1_manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/iweaver_v1_manifest.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/lights-default-sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/lights-default-sec.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/memtrack.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/memtrack.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/power-samsung.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/power-samsung.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/secaudiohalaidl_manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/secaudiohalaidl_manifest.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/sec_c2_manifest_default0_1_2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/sec_c2_manifest_default0_1_2.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/st.android.hardware.nfc@1.2-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/st.android.hardware.nfc@1.2-service.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.authfw@1.0-manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.authfw@1.0-manifest.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.biometrics.fingerprint-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.biometrics.fingerprint-service.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.camera.provider-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.camera.provider-service.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.health-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.health-service.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.radio.exclude.slsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.radio.exclude.slsi.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.radio_manifest_2_33.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.radio_manifest_2_33.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.engmode-manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.security.engmode-manifest.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.fkeymaster-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.security.fkeymaster-service.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.hdcp.wifidisplay-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.security.hdcp.wifidisplay-default.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.hermes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.security.hermes.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.rtts-manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.security.rtts-manifest.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.skpm-manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.security.skpm-manifest.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.vaultkeeper-manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.security.vaultkeeper-manifest.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.widevine.keyprov-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.security.widevine.keyprov-service.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.wsm.service-manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.security.wsm.service-manifest.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.sehradio_manifest_2_33.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.sehradio_manifest_2_33.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.snap-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.snap-default.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.hdm@1.1-manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.tlc.hdm@1.1-manifest.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.iccc-manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.tlc.iccc-manifest.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.kg-manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.tlc.kg-manifest.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.mpos_tui@1.0-manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.tlc.mpos_tui@1.0-manifest.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.payment-manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.tlc.payment-manifest.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.ucm-manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.tlc.ucm-manifest.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.vibrator-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.vibrator-default.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.wifi@2.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.wifi@2.0-service.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/vintf/manifest/vendor.samsung_slsi.hardware.enn@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung_slsi.hardware.enn@1.0-service.xml \
     vendor/samsung/a26x/proprietary/vendor/etc/vramdiskd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vramdiskd.xml \
     vendor/samsung/a26x/proprietary/vendor/etc/VslMesDetector/MesDetectorBlur.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/VslMesDetector/MesDetectorBlur.tflite \
     vendor/samsung/a26x/proprietary/vendor/etc/VslMesDetector/MesDetectorLowlight.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/VslMesDetector/MesDetectorLowlight.tflite \
