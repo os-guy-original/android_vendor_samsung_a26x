@@ -5,7 +5,6 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/a26x \
     hardware/samsung \
-    hardware/samsung_slsi-linaro/config
 
 # Proprietary blobs
 PRODUCT_COPY_FILES += \
