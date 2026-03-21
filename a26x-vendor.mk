@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a26x/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
     vendor/samsung/a26x/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
     vendor/samsung/a26x/proprietary/vendor/bin/hw/mfgloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfgloader \
-    vendor/samsung/a26x/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
     vendor/samsung/a26x/proprietary/vendor/bin/hw/samsung.hardware.media.c2@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/samsung.hardware.media.c2@1.2-service \
     vendor/samsung/a26x/proprietary/vendor/bin/hw/samsung.software.media.c2@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/samsung.software.media.c2@1.0-service \
     vendor/samsung/a26x/proprietary/vendor/bin/hw/secaudiohalaidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/secaudiohalaidl \
