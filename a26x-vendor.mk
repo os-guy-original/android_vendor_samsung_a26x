@@ -139,8 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a26x/proprietary/vendor/etc/enn/custom_mode_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/enn/custom_mode_config.json \
     vendor/samsung/a26x/proprietary/vendor/etc/epic.json:$(TARGET_COPY_OUT_VENDOR)/etc/epic.json \
     vendor/samsung/a26x/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
-    vendor/samsung/a26x/proprietary/vendor/etc/fstab.ramplus:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.ramplus \
-    vendor/samsung/a26x/proprietary/vendor/etc/fstab.s5e8835:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.s5e8835 \
     vendor/samsung/a26x/proprietary/vendor/etc/gnss/ca.pem:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/ca.pem \
     vendor/samsung/a26x/proprietary/vendor/etc/gnss/deleteLogCommands:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/deleteLogCommands \
     vendor/samsung/a26x/proprietary/vendor/etc/gnss/gps.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cfg \
@@ -171,7 +169,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a26x/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
     vendor/samsung/a26x/proprietary/vendor/etc/init/init.nfc.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.nfc.samsung.rc \
     vendor/samsung/a26x/proprietary/vendor/etc/init/init.ramplus.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ramplus.rc \
-    vendor/samsung/a26x/proprietary/vendor/etc/init/init.s5e8835.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.s5e8835.rc \
     vendor/samsung/a26x/proprietary/vendor/etc/init/init.s5e8835.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.s5e8835.usb.rc \
     vendor/samsung/a26x/proprietary/vendor/etc/init/init.sensorhub.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sensorhub.rc \
     vendor/samsung/a26x/proprietary/vendor/etc/init/init.vendor.onebinary.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.onebinary.rc \
