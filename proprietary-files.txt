@@ -968,7 +968,6 @@ vendor/etc/gps_debug.conf
 vendor/etc/hdr_samsung_mx.key
 vendor/etc/hqm_device.xml
 vendor/etc/init.insmod.s5e8835.cfg
-vendor/etc/linker.config.pb
 vendor/etc/mercury.json
 vendor/etc/mercury_hv.json
 vendor/etc/mixer_gains.xml
