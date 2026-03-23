@@ -3,5 +3,6 @@
 
 BOARD_VENDOR := samsung
 
-# VNDK - verified from live device: ro.vndk.version = 33
-BOARD_VNDK_VERSION := 33
+# VNDK is fully deprecated in Android 15 (Lineage 22).
+# Defining BOARD_VNDK_VERSION misroutes VNDK-SP libraries to system/vendor.
+# BOARD_VNDK_VERSION := 33
